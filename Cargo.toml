@@ -1,0 +1,15 @@
+[package]
+name = "cctc"
+version = "0.1.0"
+authors = ["Oliver Kovacs <oliver.kovacs.dev@gmail.com>"]
+edition = "2021"
+description = "Command-line application for cracking columnar transposition ciphers"
+readme = "README.md"
+repository = "https://github.com/OliverKovacs/cctc"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+regex = "1"
+clap = "3.0.5"
